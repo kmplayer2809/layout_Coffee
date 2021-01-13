@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    color: #333;
+  }
+
+
+  /* menu */
+  .menu ul {
+      background: #fff;
+      list-style-type: none;
+      text-align: center;
+  }
+.menu li {
+    color: #302f2f;
+    display: inline-block;
+    height: 25px;
+    position: relative;
+    line-height: 1.71429;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: #878787;
+    display: block;
+}
+.menu ul li a:hover{
+    color: #b8784e;
+}
+.sub-menu {
+    display: none;
+    position: absolute;
+   }
+.menu ul li:hover .sub-menu {
+    display: block;
+   }
+
+  /* end menu */
